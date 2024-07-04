@@ -62,6 +62,6 @@ vertex_init_deployment
     
     Command to verify env that has been assigned to deployment:
     
-      kubectl exec -it vertexai-deployment-7f6db69598-d7j75 -- env
+      kubectl exec -it <deployment-name> -- env 
     
     
